@@ -1,0 +1,50 @@
+.wrapper {
+    min-width: 350px;
+    min-height: 250px;
+    padding: 5%;
+    border: 3px solid rgba(79, 174, 202, 1);
+    border-radius: 3%;
+}
+
+.count {
+    background-color: rgba(79, 174, 202, 1);
+    min-height: 50%;
+    border: 3px solid rgba(79, 174, 202, 1);
+    border-radius: 10px;
+}
+
+.count > h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.control {
+    margin: 10% 0 0 0;
+    min-height: 30%;
+    border: 3px solid rgba(79, 174, 202, 1);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.control > button {
+    font-size: 40px ;
+    font-weight: bold;
+    background-color: rgba(79, 174, 202, 1);
+    margin: 5%;
+    border-radius: 10px;
+    min-height: 40px;
+    min-width: 25%;
+
+}
+.control > button:hover {
+    cursor: pointer;
+}
+
+.red {
+    color: darkred;
+}
